@@ -4,7 +4,7 @@ body {
   color: $text-color-secondary;
   background: $smoky-white;
   font-size: 14px;
-  padding: 30px;
+  padding: 0 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -45,7 +45,7 @@ p {
 
 .sidebar-wrapper {
   grid-column: span 3;
-  order: 2;
+  order: 0;
   background: $theme-color;
   color: #fff;
   a {
@@ -163,6 +163,7 @@ p {
   grid-column: span 7;
   background: #fff;
   padding: 60px;
+  order: 2;
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -213,6 +214,15 @@ p {
     margin-top: 0;
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
+  }
+  .skillsets-section {
+    .skill-title {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 5px;
+      color: darken($theme-color, 15%);
+    }
   }
   .projects-section {
     .intro {

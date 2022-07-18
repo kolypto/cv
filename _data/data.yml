@@ -3,192 +3,239 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Mark Vartanyan
+    tagline: Back-End Developer and Architect
+    avatar: profile.png
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: kolypto@gmail.com
+    phone: ~
+    timezone: ~
+    citizenship: ~
+    website: ~
+    linkedin: kolypto
+    xing: ~
+    github: kolypto
+    telegram: kolypto
+    gitlab: ~
+    bitbucket: ~
+    twitter: ~
+    stack-overflow: 134904/kolypto
+    codewars: ~
+    goodreads: ~
+    pdf: ~
 
     languages:
       - idiom: English
+        level: Fluent
+
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: Biology
         link:
 
-      - item: Snowboarding
+      - item: Christian Theology
         link:
 
-      - item: Cooking
+      - item: Hiking in the Mountains
+        link:
+
+      - item: Photography
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Enthusiastic Python back-end developer and architect.
+
+      Pays careful attention to performance, internal beauty, and durability of every component.
+      Loves exceptional projects and challenging tasks that serve the greater good.
+
+      Friendly and business-minded. Loves people. Always smiles :)
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: MSc in Telecommunications
+      university: People's Friendship University of Russia
+      time: 2008-2011
+      details: ~
+    - degree: BSc in Applied Mathematics and Computer Science
+      university: People's Friendship University of Russia
+      time: 2004-2008
+      details: ~
+
+
 experiences:
+    - role: Full Cycle Freelance Developer
+      time: 2003-2009
+      company: Freelance
+      details: |
+        Tech: PHP, JavaScript, HTML, CSS
+
+        Created numerous web crawlers, parsers and grabbers, and tools for SEO and data mining.
+        Data processing and data mining services.
+        Built a banner network with view counting and referral payments.
+    - role: Full stack developer
+      time: 2009-2011
+      company: BrandMotiv web studio
+      details: |
+        Tech: PHP, Javascript.
+
+        Teamed up with a team of sales and designers to create numerous e-commerce websites in PHP using Simpla CMS.
+        Created many custom plugins for both the back-end and the front-end.
+
     - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+      time: 2012-2014
+      company: AMgrade
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Tech: PHP, MySQL, Javascript, Node.js, Python
+
+        Created websites and web services with Drupal 7 CMS and PHP frameworks (Symfony 2). Led a small team of full-stack developers, also being a project manager and a product manager at times.
+    - role: Software Developer and Architect
+      time: 2013-2022
+      company: Dignio
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Tech: Python (Flask, FastAPI, GraphQL, SqlAlchemy), Postgres, Redis.
+
+        Dignio provides a remote healthcare solution so that chronic patients can be monitored at home rather than having to stay in hospital.
+
+        Designed the architecture and built an API solution from scratch. It includes an API, a complex security model, flexible query language for the UI, and realtime notifications. Implemented integration with third-party systems. Applied performance optimization and caching techniques.
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: ~
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Dignio Prevent
+        link: https://dignio.com/
+        tagline: |
+            A remote healthcare platform where patients stay at home and take vital signs using wireless devices that transmit them to the back-end application. The application checks whether the measurement is OK, and if not, notifies a nurse.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+            The platform also has automatic medication dispensers that serve pre-packaged medication rolls from a pharmacy.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+            <p>⚙️Python, Flask, PostgreSQL, Redis, FastAPI, GraphQL (Ariadne), async.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Serwant
+        link: http://serwant.com.ua/
+        tagline: |
+            A web service that collects data from wireless meters for the water utility company.
+            This solution enables engineers to find leaks and fix them in time.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+            <p>⚙️Python, FastAPI, PostgreSQL
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: MongoSQL (open-source library)
+        link: https://github.com/kolypto/py-mongosql
+        tagline: |
+            Provides a query language for the front-end.
+            Through this MongoDB-inspired syntax, the front-end can filter, sort, and paginate results through a standardized set of tools — which is a time-saver because the front-end team does not have to wait on the back-end to support these standard features.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Matroska Cache (open-source library)
+        link: https://github.com/kolypto/py-matroska-cache
+        tagline: |
+            A hierarchical caching solution with dependency tracking. Sounds complicated, but made simple with this library.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+publications: ~
+#    title: Open-Source Projects
+#    intro: ~
+#    papers:
+#      - title: Example
+#        link: https://example.com
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+
+
+skillsets:
+    - title: ~
+      details: |
+        Primary language: Python
+        <br>Used in the past: Node.js, PHP, C
+        <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
+
+        Python style: typing, async
+        <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
+        <br>Python tools: SqlAlchemy, Alembic, pytest
+        <br>Daily use: Linux, bash/fish, git, Docker, mypy
+
+    - title: Values
+      details: |
+        * Creates structured, readable, well-documented code.
+        * Cares about performance, optimizes algorithms
+        * Pursues solutions with inner beauty
+        * Prefers quality over quantity
+        * Always writes unit-tests
+    - title: Software Architecture
+      details: |
+        * Designs structured APIs for the long-term
+        * Always focuses on performance
+        * Unit-test are used to check the integrity of the solution
+        * Tries to avoid over-engineering: simple solutions are easier to support
+        * Event-Sourcing can be used where necessary
+        * Documentation: Vision, Product Requirements Document, Product Design Specification.
+    - title: In Addition
+      details: |
+        * Linux. Fluent with the terminal. Uses Linux daily.
+        * Bash scripting, Python scripting for networking and system tasks
+        * Docker
+        * A bit of Amazon AWS
+        * A bit of Kubernetes
+    - title: Business Communication
+      details: |
+        * Able to understand the requirements and suggest a good way to meet them
+        * Can outline a project’s features, make estimations on the resources involved
+        * Experienced in preparing all the documents, both managerial and technical
+        * A team player.
+    - title: Personal
+      details: |
+        * English: Fluent. Is able to understand and use technical language. Prefers to use English at work.
+        * Can do research and figure things out. Eager to learn new things.
+        * Knows the art of explaining things properly.
+        * Friendly, accurate, stress-resistant. Easily fits into a team. Loves people :)
+        * Perfectionist.
+
+
+
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 100%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Flask
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: FastAPI
+        level: 90%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: GraphQL (Ariadne)
+        level: 80%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: PostgreSQL
+        level: 75%
+      - name: Redis
+        level: 80%
+      - name: MongoDB
         level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: Node.js
+        level: 60%
+
+      - name: JavaScript
+        level: 90%
+      - name: TypeScript
+        level: 70%
+      - name: Angular
+        level: 50%
+
+      - name: C/Linux
+        level: 40%
+      - name: PHP
+        level: 30%
+
+footer: ~
