@@ -71,31 +71,6 @@ education:
 
 
 experiences:
-    - role: Full Cycle Freelance Developer
-      time: 2003-2009
-      company: Freelance
-      details: |
-        Tech: PHP, JavaScript, HTML, CSS
-
-        Created numerous web crawlers, parsers and grabbers, and tools for SEO and data mining.
-        Data processing and data mining services.
-        Built a banner network with view counting and referral payments.
-    - role: Full stack developer
-      time: 2009-2011
-      company: BrandMotiv web studio
-      details: |
-        Tech: PHP, Javascript.
-
-        Teamed up with a team of sales and designers to create numerous e-commerce websites in PHP using Simpla CMS.
-        Created many custom plugins for both the back-end and the front-end.
-
-    - role: Lead Developer
-      time: 2012-2014
-      company: AMgrade
-      details: |
-        Tech: PHP, MySQL, Javascript, Node.js, Python
-
-        Created websites and web services with Drupal 7 CMS and PHP frameworks (Symfony 2). Led a small team of full-stack developers, also being a project manager and a product manager at times.
     - role: Software Developer and Architect
       time: 2013-2022
       company: Dignio
@@ -105,6 +80,34 @@ experiences:
         Dignio provides a remote healthcare solution so that chronic patients can be monitored at home rather than having to stay in hospital.
 
         Designed the architecture and built an API solution from scratch. It includes an API, a complex security model, flexible query language for the UI, and realtime notifications. Implemented integration with third-party systems. Applied performance optimization and caching techniques.
+
+    - role: Lead Developer
+      time: 2012-2014
+      company: AMgrade
+      details: |
+        Tech: PHP, MySQL, Javascript, Node.js, Python
+
+        Created websites and web services with Drupal 7 CMS and PHP frameworks (Symfony 2). Led a small team of full-stack developers, also being a project manager and a product manager at times.
+    
+    - role: Full stack developer
+      time: 2009-2011
+      company: BrandMotiv web studio
+      details: |
+        Tech: PHP, Javascript.
+
+        Teamed up with a team of sales and designers to create numerous e-commerce websites in PHP using Simpla CMS.
+        Created many custom plugins for both the back-end and the front-end.
+
+    - role: Full Cycle Freelance Developer
+      time: 2003-2009
+      company: Freelance
+      details: |
+        Tech: PHP, JavaScript, HTML, CSS
+
+        Created numerous web crawlers, parsers and grabbers, and tools for SEO and data mining.
+        Data processing and data mining services.
+        Built a banner network with view counting and referral payments.
+
 
 projects:
     title: Projects
