@@ -155,7 +155,8 @@ skillsets:
     - title: ~
       details: |
         Primary language: Python
-        <br>Used in the past: Node.js, PHP, C
+        <br>Also: Go, C, bash, JavaScript
+        <br>Used in the past: Node.js, PHP
         <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
 
         Python style: typing, async
@@ -226,6 +227,8 @@ skills:
       - name: MongoDB
         level: 60%
 
+      - name: Go
+        level: 60% 
       - name: Node.js
         level: 60%
 
