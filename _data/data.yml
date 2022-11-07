@@ -155,7 +155,7 @@ skillsets:
     - title: ~
       details: |
         Primary language: Python
-        <br>Also: Go, C, bash, JavaScript
+        <br>Also: Go, C, JavaScript, bash
         <br>Used in the past: Node.js, PHP
         <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
 
