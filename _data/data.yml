@@ -190,6 +190,9 @@ skillsets:
         <br>Python tools: SqlAlchemy, Alembic, pytest
         <br>Daily use: Linux, bash/fish, git, Docker, mypy
 
+        Secondary: Angular, TypeScript, Flutter
+
+        DevOps: Terraform, Traefik, GitHub Actions, Docker
     - title: Values
       details: |
         * Creates structured, readable, well-documented code.
@@ -205,13 +208,11 @@ skillsets:
         * Tries to avoid over-engineering: simple solutions are easier to support
         * Event-Sourcing can be used where necessary
         * Documentation: Vision, Product Requirements Document, Product Design Specification.
-    - title: In Addition
+    - title: DevOps
       details: |
         * Linux. Fluent with the terminal. Uses Linux daily.
         * Bash scripting, Python scripting for networking and system tasks
-        * Docker
-        * A bit of Amazon AWS
-        * A bit of Kubernetes
+        * A bit of Amazon AWS, Kubernetes
     - title: Business Communication
       details: |
         * Able to understand the requirements and suggest a good way to meet them
@@ -254,7 +255,7 @@ skills:
         level: 60%
 
       - name: Go
-        level: 60% 
+        level: 80% 
       - name: Node.js
         level: 60%
 
@@ -263,7 +264,7 @@ skills:
       - name: TypeScript
         level: 70%
       - name: Angular
-        level: 50%
+        level: 80%
 
       - name: C/Linux
         level: 40%
