@@ -182,11 +182,11 @@ skillsets:
       details: |
         Primary languages: Python, Go
 
-        Python style: typing, async
+        Python style: typing, async, test-driven
         <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
         <br>Python tools: SqlAlchemy, Alembic, pytest
 
-        <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
+        Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
         <br>Daily use: Linux, bash/fish, git, Docker, mypy
     - title: Secondary tools
       details: |
