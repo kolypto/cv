@@ -178,9 +178,9 @@ publications: ~
 
 
 skillsets:
-    - title: Primary tools
+    - title: ~
       details: |
-        Languages: Python, Go
+        Primary languages: Python, Go
 
         Python style: typing, async
         <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
@@ -190,10 +190,9 @@ skillsets:
         <br>Daily use: Linux, bash/fish, git, Docker, mypy
     - title: Secondary tools
       details: |
-        Angular, TypeScript, Flutter
-        <br>Long ago: Node.js, PHP, C
-
-        DevOps: Terraform, Docker, Traefik, GitHub Actions, AWS
+        * Angular, TypeScript, Flutter
+        * Long ago: Node.js, PHP, C
+        * Terraform, Docker, Traefik, GitHub Actions, AWS
     - title: Values
       details: |
         * Creates structured, readable, well-documented code.
@@ -269,7 +268,5 @@ skills:
 
       - name: C/Linux
         level: 40%
-      - name: PHP
-        level: 30%
 
 footer: ~
