@@ -180,17 +180,17 @@ publications: ~
 skillsets:
     - title: ~
       details: |
-        Primary language: Python, Go
-        <br>Also: C, JavaScript
-        <br>Used in the past: Node.js, PHP
-        <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
+        Primary languages: Python, Go
 
         Python style: typing, async
         <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
         <br>Python tools: SqlAlchemy, Alembic, pytest
-        <br>Daily use: Linux, bash/fish, git, Docker, mypy
 
-        Secondary: Angular, TypeScript, Flutter
+        Secondary tools: Angular, TypeScript, Flutter
+        <br>Long ago: Node.js, PHP, C
+
+        <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
+        <br>Daily use: Linux, bash/fish, git, Docker, mypy
 
         DevOps: Terraform, Traefik, GitHub Actions, Docker
     - title: Values
