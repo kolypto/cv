@@ -189,6 +189,7 @@ skillsets:
         <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
         <br>Daily use: Linux, bash/fish, git, Docker, mypy
     - title: Secondary tools
+      details: |
         Angular, TypeScript, Flutter
         <br>Long ago: Node.js, PHP, C
 
