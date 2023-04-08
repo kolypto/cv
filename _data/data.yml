@@ -178,9 +178,10 @@ publications: ~
 
 
 skillsets:
-    - title: >
-        Primary: Python, Go
+    - title: ~
       details: |
+        Python, Go
+
         * Python style: typing, async, test-driven
         * Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
         * Python tools: SqlAlchemy, Alembic, pytest
