@@ -178,21 +178,21 @@ publications: ~
 
 
 skillsets:
-    - title: ~
+    - title: >
+        Primary: Python, Go
       details: |
-        Primary languages: Python, Go
-
-        Python style: typing, async, test-driven
-        <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
-        <br>Python tools: SqlAlchemy, Alembic, pytest
-
-        Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
-        <br>Daily use: Linux, bash/fish, git, Docker, mypy
+        * Python style: typing, async, test-driven
+        * Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
+        * Python tools: SqlAlchemy, Alembic, pytest
+        * Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
     - title: Secondary tools
       details: |
-        * Angular, TypeScript, Flutter
+        * Angular, TypeScript
         * Long ago: Node.js, PHP, C
-        * Terraform, Docker, Traefik, GitHub Actions, AWS
+    - title: DevOps
+      details: |
+        * Daily use: Linux, bash/fish, git, Docker, mypy
+        * DevOps: Terraform, Docker, Traefik, GitHub Actions, AWS
     - title: Values
       details: |
         * Creates structured, readable, well-documented code.
