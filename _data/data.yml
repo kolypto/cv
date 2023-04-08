@@ -185,7 +185,7 @@ skillsets:
         <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
         <br>Python tools: SqlAlchemy, Alembic, pytest
         
-        <br>Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
+        Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
     - title: Secondary tools
       details: |
         * Angular, TypeScript
