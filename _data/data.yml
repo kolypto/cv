@@ -240,13 +240,13 @@ skills:
       - name: Python
         level: 100%
 
-      - name: Flask
+      - name: Python/Flask
         level: 90%
 
-      - name: FastAPI
+      - name: Python/FastAPI
         level: 90%
 
-      - name: GraphQL (Ariadne)
+      - name: GraphQL (Python/Ariadne)
         level: 80%
 
       - name: PostgreSQL
@@ -254,7 +254,7 @@ skills:
       - name: Redis
         level: 80%
       - name: MongoDB
-        level: 60%
+        level: 40%
 
       - name: Go
         level: 80% 
@@ -264,7 +264,7 @@ skills:
       - name: JavaScript
         level: 90%
       - name: TypeScript
-        level: 70%
+        level: 80%
       - name: Angular
         level: 80%
 
