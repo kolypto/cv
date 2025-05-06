@@ -88,7 +88,7 @@ experiences:
         The back-end is implemented in Go, and it uses MQTT to talk to dispensers. The system is offline-first, with safety nets and sync points to make sure that both the server and the dispenser know how to keep one another in the know. When it is online, it can be remotely controlled and inspected for support.
         The protocol is really simple, with fewer than 10 message types to support these features.
 
-        The back-end itself is designed with domain logic cleanly separated from the protocol handlers: MQTT and OpenAPI. It's almost Event-Sourcing, but without the “source” part. This approach makes things so easy to unit-test that the whole thing is verified with almost mathematical precision.
+        The back-end itself is designed with domain logic cleanly separated from the protocol handlers (MQTT and OpenAPI). It's almost Event-Sourcing, but without the “source” part. This approach makes things so easy to unit-test that the whole thing is verified with almost mathematical precision.
 
         The API is exposed as OpenAPI, with endpoints getting data from the “read model” in Postgres, and mutations happening through the business-logic layer.
 
@@ -151,6 +151,17 @@ projects:
     title: Projects
     intro: ~
     assignments:
+      - title: Mobili Server
+        link: https://medthings.no/
+        tagline: |
+            A server that controls medication dispensers:
+
+            * An MQTT server that handles real-time communication with hundreds of medication dispensers.
+            * A back-end server that manages medication plans and all sorts of alerts: medication not take, device jammed, etc.
+            * A front-end in Angular and OpenAPI spec.
+
+            <p>⚙️ Go, PostgreSQL, Redis; Angular
+
       - title: Dignio Prevent
         link: https://dignio.com/
         tagline: |
@@ -159,7 +170,7 @@ projects:
 
             The platform also has automatic medication dispensers that serve pre-packaged medication rolls from a pharmacy.
 
-            <p>⚙️Python, Flask, PostgreSQL, Redis, FastAPI, GraphQL (Ariadne), async.
+            <p>⚙️ Python, Flask, PostgreSQL, Redis, FastAPI, GraphQL (Ariadne), async.
 
       - title: Serwant
         link: http://serwant.com.ua/
@@ -167,7 +178,7 @@ projects:
             A web service that collects data from wireless meters for the water utility company.
             This solution enables engineers to find leaks and fix them in time.
 
-            <p>⚙️Python, FastAPI, PostgreSQL
+            <p>⚙️ Python, FastAPI, PostgreSQL
 
       - title: MongoSQL (open-source library)
         link: https://github.com/kolypto/py-mongosql
