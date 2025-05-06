@@ -52,20 +52,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Enthusiastic Python/Go back-end developer and tech lead.
+      Enthusiastic Go back-end developer and architect.
 
       Pays careful attention to performance, internal beauty, and durability of every component.
       Loves exceptional projects and challenging tasks that serve the greater good.
 
       Friendly and business-minded. Loves people. Always smiles :)
 
-# For the past 10 years I worked in healthcare, being the principal software engineer, responsible for the major design decisions in the business logic and the data model.
-# My primary stack is Python/Postgres/Redis, Flask or FastAPI, GraphQL and async tools.
-# I use Go for services that need some more oompf.
-
-# I love people, and communicate well. Eager to participate in product design with the owner.
-# Can lead a team. Prefer more code and less Jira :)
-
+      Has over 10 years of experience in remote healthcare, being the principal software engineer:
+      i.e. responsible for the major design decisions in the business logic and the data model.
 
 education:
     - degree: MSc in Telecommunications
@@ -79,31 +74,49 @@ education:
 
 
 experiences:
+    - role: Principal Software Engineer, Full Stack
+      time: 2022-now
+      company: (A Healthcare Company)
+      details: |
+        Tech: Go, PostgreSQL, Redis, RabbitMQ; Angular; Grafana, Loki; Terraform, AWS, Docker
+
+        (The Company)
+        produces a medical device that dispensers medication at the right time. It is also interactive: the device itself, and the server that it talks to, work together to help users fill cassettes.
+
+        It is a complete product, and also a start-up where innovations are born. Therefore every feature a bit of a research, and every task is a discussion. We managed to keep things simple and well-designed, but powerful are the tools that come out of it.
+
+        The back-end is implemented in Go, and it uses MQTT to talk to dispensers. The system is offline-first, with safety nets and sync points to make sure that both the server and the dispenser know how to keep one another in the know. When it is online, it can be remotely controlled and inspected for support.
+        The protocol is really simple, with fewer than 10 message types to support these features.
+
+        The back-end itself is designed with domain logic cleanly separated from the protocol handlers: MQTT and OpenAPI. It's almost Event-Sourcing, but without the “source” part. This approach makes things so easy to unit-test that the whole thing is verified with almost mathematical precision.
+
+        The API is exposed as OpenAPI, with endpoints getting data from the “read model” in Postgres, and mutations happening through the business-logic layer.
+
+        Finally, the Angular front-end with richly interactive elements allows users to see the state and control the device.
+
+        The solution is continuously build on GitHub, deployed on AWS with Terraform, and monitored with Grafana, Loki, Prometheus.
+
     - role: Software Developer and Architect
       time: 2013-2022
       company: Dignio
       details: |
-        Tech: Python (Flask, FastAPI, GraphQL, SqlAlchemy), Postgres, Redis.
+        Tech: Python (FastAPI, Flask, GraphQL, SqlAlchemy), PostgreSQL, Redis.
 
-        Dignio provides a remote healthcare solution so that chronic patients can be monitored at home rather than having to stay in hospital.
+        Dignio provides a remote healthcare solution that allows chronic patients to be monitored at home rather than having to stay in hospital.
 
-        Designed the architecture and built an API solution from scratch. It includes an API, a complex security model, flexible query language for the UI, 
-        and realtime notifications. Implemented integration with third-party systems. Applied performance optimization and caching techniques.
+        I was responsible for building the solution from scratch: chose the tech stack, designed the data model and the API, implemented a complex security model. A know-how solution is a flexible query language that allows the UI to shape the data returned by the server.
 
-# Dignio provides a remote healthcare solution that allows chronic patients to be monitored at home rather than having to stay in hospital.
-#
-# I was responsible for building the solution from scratch: chose the tech stack, designed the data model and the API, implemented a complex security model. A know-how solution is a flexible query language that allows the UI to shape the data returned by the server.
-#
-# When more people joined in, I assumed the role of tech lead: provided the technical design for new features, broke them up into tasks, reviewed the code. While being a good neighbor to the team, I also tried to improve our documentation, code quality, test coverage, and gently pushed for better solutions when the time allows.
-#
-# After the solution served the company well for 8 years, I led a team that started an incremental re-build of the solution with a newer async framework and more robust approaches to data processing. The challenge was to establish patterns that other developers will follow, and it is quite a responsibility to know that the things we design today should be good enough to serve the company for years.
-#
-# Technically speaking: I started a Python/Flask/PostgreSQL application, designed the data model, established patterns for CRUD endpoints, data validation and background jobs with Celery and Redis. The application boasts a custom query language that lets the front-end team decide which fields and edges to include: this was before the GraphQL times.
-# Recently, we decided to rebuild the application using Python/GraphQL and some FastAPI: an async web framework that enables real-time operations via websocket. Our goal was to keep the codebase simple, achieve greater performance, and of course be forward-looking: the new platform should be flexible enough to receive new features in the future. It’s also a responsibility to establish patterns and best practices for developers to follow.
-#
-# Every feature in the project is covered with unit-tests: it’s a part of the code-review pocess we established. The value of unit-tests is to make sure that it works well today, and will keep working as we make changes to the system.
-#
-# I also authored coding guidelines, best practices, onboarding tutorials, and led some master classes.
+        When more people joined in, I assumed the role of tech lead: provided the technical design for new features, broke them up into tasks, reviewed the code. While being a good neighbor to the team, I also tried to improve our documentation, code quality, test coverage, and gently pushed for better solutions when the time allows.
+
+        After the solution served the company well for 8 years, I led a team that started an incremental re-build of the solution with a newer async framework and more robust approaches to data processing. The challenge was to establish patterns that other developers will follow, and it is quite a responsibility to know that the things we design today should be good enough to serve the company for years.
+
+        Technically speaking: I started a Python/Flask/PostgreSQL application, designed the data model, established patterns for CRUD endpoints, data validation and background jobs with Celery and Redis. The application boasts a custom query language that lets the front-end team decide which fields and edges to include: this was before the GraphQL times.
+
+        Recently, we decided to rebuild the application using FastAPI and some GraphQL: async web frameworks that enables real-time operations via websocket. Our goal was to keep the codebase simple, achieve greater performance, and of course be forward-looking: the new platform should be flexible enough to receive new features in the future. It's also a responsibility to establish patterns and best practices for developers to follow.
+
+        Every feature in the project is covered with unit-tests: it's a part of the code-review pocess we established. The value of unit-tests is to make sure that it works well today, and will keep working as we make changes to the system.
+
+        I also authored coding guidelines, best practices, onboarding tutorials, and led some master classes.
 
     - role: Lead Developer
       time: 2012-2014
@@ -111,9 +124,9 @@ experiences:
       details: |
         Tech: PHP, MySQL, Javascript, Node.js, Python
 
-        Created websites and web services with Drupal 7 CMS and PHP frameworks (Symfony 2). 
+        Created websites and web services with Drupal 7 CMS and PHP frameworks (Symfony 2).
         Led a small team of full-stack developers, also being a project manager and a product manager at times.
-    
+
     - role: Full stack developer
       time: 2009-2011
       company: BrandMotiv web studio
@@ -141,7 +154,7 @@ projects:
       - title: Dignio Prevent
         link: https://dignio.com/
         tagline: |
-            A remote healthcare platform where patients stay at home and take vital signs using wireless devices that transmit them to the back-end application. 
+            A remote healthcare platform where patients stay at home and take vital signs using wireless devices that transmit them to the back-end application.
             The application checks whether the measurement is OK, and if not, notifies a nurse.
 
             The platform also has automatic medication dispensers that serve pre-packaged medication rolls from a pharmacy.
@@ -184,7 +197,7 @@ skillsets:
         Python style: typing, async, test-driven
         <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
         <br>Python tools: SqlAlchemy, Alembic, pytest
-        
+
         Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
     - title: Secondary tools
       details: |
@@ -256,7 +269,7 @@ skills:
         level: 40%
 
       - name: Go
-        level: 80% 
+        level: 80%
       - name: Node.js
         level: 60%
 
