@@ -217,7 +217,7 @@ skillsets:
 
     - title: Databases
       details: |
-        PostgreSQL, SQLite, Reid, MySQL, MongoDB
+        * PostgreSQL, SQLite, Reid, MySQL, MongoDB
 
     - title: Front-End
       details: |
@@ -225,12 +225,12 @@ skillsets:
 
     - title: DevOps
       details: |
-        Deployment: Terraform, [Ansible, Kubernetes]
-        Monitoring: Grafana, Loki, Prometheus
-        Infrastructure: Traefik
-        OS: Docker,
-        CI: GitHub Actions
-        Cloud: AWS
+        * Deployment: Terraform, [Ansible, Kubernetes]
+        * Monitoring: Grafana, Loki, Prometheus
+        * Infrastructure: Traefik
+        * OS: Docker,
+        * CI: GitHub Actions
+        * Cloud: AWS
 
     - title: Also
       details: |
