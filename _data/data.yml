@@ -202,22 +202,41 @@ publications: ~
 
 
 skillsets:
-    - title: >
-        Primary tools: Python, Go
+    - title: Back-End, Go
       details: |
-        Python style: typing, async, test-driven
-        <br>Python frameworks: Flask, FastAPI, GraphQL (Ariadne)
-        <br>Python tools: SqlAlchemy, Alembic, pytest
+        * Frameworks: echo
+        * Tools: koanf, urfave/cli, pgx, sqlc, sqlx, zerolog, lo
+        * Specs: OpenAPI, TypeSpec, JWT
+        * Testing: testify, testdeep,
 
-        Data stores: PostgreSQL, MySQL, Redis, MongoDB (a bit)
-    - title: Secondary tools
+    - title: Back-End, Python
+      details: |
+        * Frameworks: Flask, FastAPI, GraphQL (Ariadne)
+        * Tools: SqlAlchemy, Alembic, pytest
+        * Style: typing, async, test-driven
+
+    - title: Databases
+      details: |
+        PostgreSQL, SQLite, Reid, MySQL, MongoDB
+
+    - title: Front-End
       details: |
         * Angular, TypeScript
-        * Long ago: Node.js, PHP, C
+
     - title: DevOps
       details: |
-        * Daily use: Linux, bash/fish, git, Docker, mypy
-        * DevOps: Terraform, Docker, Traefik, GitHub Actions, AWS
+        Deployment: Terraform, [Ansible, Kubernetes]
+        Monitoring: Grafana, Loki, Prometheus
+        Infrastructure: Traefik
+        OS: Docker,
+        CI: GitHub Actions
+        Cloud: AWS
+
+    - title: Also
+      details: |
+        * Daily use: Linux, bash/fish, git, Docker
+        * Long ago: NodeJS, PHP, C/Linux
+
     - title: Values
       details: |
         * Creates structured, readable, well-documented code.
@@ -225,6 +244,8 @@ skillsets:
         * Pursues solutions with inner beauty
         * Prefers quality over quantity
         * Always writes unit-tests
+        * Values simplicity
+        * Loves people :)
     - title: Software Architecture
       details: |
         * Designs structured APIs for the long-term
@@ -233,15 +254,10 @@ skillsets:
         * Tries to avoid over-engineering: simple solutions are easier to support
         * Event-Sourcing can be used where necessary
         * Documentation: Vision, Product Requirements Document, Product Design Specification.
-    - title: DevOps
-      details: |
-        * Linux. Fluent with the terminal. Uses Linux daily.
-        * Bash scripting, Python scripting for networking and system tasks
-        * A bit of Amazon AWS, Kubernetes
     - title: Business Communication
       details: |
         * Able to understand the requirements and suggest a good way to meet them
-        * Can outline a project’s features, make estimations on the resources involved
+        * Can outline a project's features, make estimations on the resources involved
         * Experienced in preparing all the documents, both managerial and technical
         * A team player.
     - title: Personal
@@ -260,6 +276,9 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Go
+        level: 100%
+
       - name: Python
         level: 100%
 
