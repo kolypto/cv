@@ -3,8 +3,9 @@
 #
 
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: True
+    education: True
 
     # Profile information
     name: Mark Vartanyan
@@ -13,23 +14,29 @@ sidebar:
 
     # Sidebar links
     email: kolypto@gmail.com
-    phone: ~
-    timezone: ~
-    citizenship: ~
-    website: ~
+    phone:
+    timezone:
+    citizenship:
+    website:
     linkedin: kolypto
-    xing: ~
+    xing:
     github: kolypto
     telegram: kolypto
-    gitlab: ~
-    bitbucket: ~
-    twitter: ~
+    gitlab:
+    bitbucket:
+    bluesky:
+    twitter:
     stack-overflow: 134904/kolypto
-    codewars: ~
-    goodreads: ~
-    pdf: ~
+    codewars:
+    goodreads:
+    mastodon: # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf:
 
     languages:
+      title: Languages
+      info:
       - idiom: English
         level: Fluent
 
@@ -37,6 +44,8 @@ sidebar:
         level: Native
 
     interests:
+      title: Interests
+      info:
       - item: Biology
         link:
 
@@ -63,6 +72,8 @@ career-profile:
       i.e. responsible for the major design decisions in the business logic and the data model.
 
 education:
+  title: Education
+  info:
     - degree: MSc in Telecommunications
       university: Peoples' Friendship University of Russia
       time: 2008-2011
@@ -74,6 +85,8 @@ education:
 
 
 experiences:
+  title: Experience
+  info:
     - role: Principal Software Engineer, Full Stack
       time: 2022-now
       company: (A Healthcare Company)
@@ -191,17 +204,13 @@ projects:
         tagline: |
             A hierarchical caching solution with dependency tracking. Sounds complicated, but made simple with this library.
 
+oss: ~
 publications: ~
-#    title: Open-Source Projects
-#    intro: ~
-#    papers:
-#      - title: Example
-#        link: https://example.com
-#        authors: Donald E. Knuth
-#        conference: Addison-Wesley, 1968
-
+recommendations: ~
 
 skillsets:
+  title: Skills &amp; Proficiency
+  toolset:
     - title: Back-End, Go
       details: |
         * Frameworks: echo
